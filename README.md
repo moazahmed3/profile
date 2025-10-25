@@ -11,23 +11,6 @@ TypeScript	Adds type safety and improved developer experience
 Tailwind CSS	Utility-first CSS framework for fast styling
 shadcn/ui	Prebuilt and customizable components built on top of Radix UI
 Lucide React	Icon library for modern React projects
-🧱 Project Structure
-📦 project-root
- ┣ 📂 app/
- ┃ ┣ 📜 page.tsx                # Main Profile Page
- ┃ ┣ 📂 img/                    # Profile & logo images
- ┃ ┗ 📂 components/
- ┃    ┣ 📂 Header/
- ┃    ┃ ┗ 📜 HeaderComponent.tsx     # Navbar with search, dark mode toggle, and user dropdown
- ┃    ┣ 📂 CardComponent/
- ┃    ┃ ┣ 📜 HeaderCard.tsx          # User avatar, name, role, and social links
- ┃    ┃ ┣ 📜 PersonalInformationCard.tsx  # Personal info fields with edit button
- ┃    ┃ ┗ 📜 FooterCard.tsx          # Footer or additional details section
- ┃    ┗ 📂 ui/                       # shadcn/ui components (Card, Button, Avatar, etc.)
- ┣ 📜 tailwind.config.ts             # Tailwind configuration
- ┣ 📜 tsconfig.json                  # TypeScript configuration
- ┣ 📜 package.json                   # Dependencies
- ┗ 📜 README.md                      # Project documentation
 
 💡 Features
 
